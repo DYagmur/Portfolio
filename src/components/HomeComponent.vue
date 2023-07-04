@@ -5,10 +5,9 @@
     <div class="home-page">
       <div class="content">
         <div class="text">
-          <h1>Hello, I'm a professional Web Developer</h1>
+          <h1>Welcome to My Portfolio WebSite</h1>
           <p>
             Welcome to my web developer portfolio! I am a skilled and passionate web developer with expertise in front-end and back-end development. This portfolio showcases my projects, skills, and experience in the field of web development.
-
           </p>
         </div>
       </div>
@@ -37,15 +36,20 @@
   .text {
     text-align: center;
     margin-bottom: 20px;
+    
+    
   }
   
   h1 {
     font-size: 28px;
+    margin-bottom:20px;
+    
   }
   
   p {
     font-size: 16px;
     margin-bottom: 30px;
+    border:1px solid blue;
   }
   
   .profile-picture img {

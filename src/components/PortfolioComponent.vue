@@ -1,0 +1,114 @@
+<template>
+    <div class="portfolio">
+      <h2>Portfolio</h2>
+      <div class="project-list">
+        <div class="project-card" v-for="project in projects" :key="project.id">
+          <img :src="require(`@/assets/${project.image}`)" alt="Project Image" class="project-image">
+          <div class="project-details">
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.description }}</p>
+            <a :href="project.githubLink" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+  
+  <script>
+  export default {
+    name: 'PortfolioComponent',
+    data() {
+      return {
+        projects: [
+          {
+            id: 1,
+            title: 'ReadVice',
+            description: 'The project recognizes the immense value of book recommendations, as they allow readers to connect with others and share in their experiences.',
+            image: 'project1.png',
+            githubLink: 'https://github.com/DYagmur/ReadVice',
+          },
+          {
+            id: 2,
+            title: 'Project 2',
+            description: 'Description of Project 2',
+            image: 'project2.jpg',
+            githubLink: 'https://github.com/your-username/project2',
+          },
+          {
+            id: 3,
+            title: 'Project 3',
+            description: 'Description of Project 3',
+            image: 'project3.png',
+            githubLink: 'https://github.com/your-username/project3',
+          },
+        ],
+      };
+    },
+  };
+  </script>
+  
+  <style scoped>
+  .portfolio {
+    margin-top: 60px;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-card {
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .project-details {
+    margin-top: 10px;
+  }
+  
+  .project-details h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .project-details p {
+    color: #888;
+  }
+  
+  .project-details a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .project-card {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .project-card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .project-card {
+      width: calc(33.33% - 20px);
+    }
+  }
+  </style>
+  

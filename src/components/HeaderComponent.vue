@@ -3,7 +3,7 @@
     
         <nav>
             <a class="navbar-brand" href="#">
-                Menu Brand
+                Duygu Efe
             </a>
     
             <label class="navbar-toggler" for="toggle">

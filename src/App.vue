@@ -1,12 +1,13 @@
 <template>
-  <div class="app">
-
+  <div id="app">
+    <div class="container">
+      <HeaderComponent />
+      <HomeComponent />
+      <AboutMe />
+      <PortfolioComponent />
+      <FooterComponent />
+    </div>
   </div>
-  <HeaderComponent />
-<!--   <ContactComponent /> -->
-  <HomeComponent />
-  <FooterComponent />
-
 </template>
 
 <script>
@@ -14,6 +15,8 @@ import HeaderComponent from './components/HeaderComponent.vue';
 import HomeComponent from './components/HomeComponent.vue';
 /* import ContactComponent from './components/ContactComponent.vue'; */
 import FooterComponent from './components/FooterComponent.vue';
+import AboutMe from './components/AboutMe.vue';
+import PortfolioComponent from './components/PortfolioComponent.vue';
 
 
 export default {
@@ -22,7 +25,9 @@ export default {
     HeaderComponent,
     FooterComponent,
  /*    ContactComponent, */
-    HomeComponent
+    HomeComponent,
+    AboutMe,
+    PortfolioComponent
     /* HelloWorld */
 
   }
@@ -31,12 +36,25 @@ export default {
 
 <style>
 
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
 #app {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.container {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-image: url(./assets/bg-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+nav {
+  position: relative; 
+  z-index: 1; 
 }
 </style>
