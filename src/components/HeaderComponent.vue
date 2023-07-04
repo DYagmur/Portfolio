@@ -1,42 +1,44 @@
 <template>
-    <input type="checkbox" id="toggle">
-    <nav>
-        <a class="navbar-brand" href="#">
-            Duygu Yagmur EFE
-        </a>
-        <label class="navbar-toggler" for="toggle">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </label>
-        <ul class="nav-list">
-            <li class="nav-item">
-                <a class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link">Contact Me </a>
-            </li>
-        </ul>
-
-    </nav>
+        <input type="checkbox" id="toggle">
+    
+        <nav>
+            <a class="navbar-brand" href="#">
+                Menu Brand
+            </a>
+    
+            <label class="navbar-toggler" for="toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+    
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Contact</a>
+                </li>
+            </ul>
+    
+        </nav>
+    
   </template>
   
   <script>
   export default {
     name: 'HeaderComponent',
-
-  }
+  };
   </script>
-
-<style>
-
-* {
+  
+  <style>
+  * {
     margin: 0;
     padding: 0;
     border: 0;
@@ -84,7 +86,7 @@ nav .nav-list .nav-link {
 }
 
 @media (max-width: 935px) {
-
+    
     nav {
         padding: 0 2rem;
     }
@@ -92,11 +94,17 @@ nav .nav-list .nav-link {
     nav .nav-list .nav-item {
         padding: 0 20px;
     }
-
+    
 }
 
 @media (max-width: 675px) {
-
+    
+    .profile-picture {
+        border: 1px solid red ;
+        margin-top: 200px;
+        
+    }
+    
     nav .nav-list {
         display: grid;
         position: absolute;
@@ -108,15 +116,15 @@ nav .nav-list .nav-link {
         z-index: -1;
         transition: .6s;
     }
-
+    
     nav .nav-list .nav-item {
         padding-left: 35px;
     }
-
+    
     nav .navbar-toggler {
         display: grid !important;
     }
-
+    
 }
 
 nav .navbar-toggler {
@@ -159,7 +167,4 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
 input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     transform: rotate(-45deg);
 }
-
 </style>
-  
-  
