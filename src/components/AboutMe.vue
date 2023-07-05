@@ -25,12 +25,20 @@
       <h2>Education 👩‍🎓 </h2>
       <ul>
         <li>
-          <h3>Bachelor's Degree in Computer Science 🏫 </h3>
-          <p>XYZ University, City, Country (Year - Year) </p>
+        <h3>Assosiate Degree in Computer Programming 🏫 </h3>
+            <p>Celal Bayar University, Izmir, Turkey (Year - Year) </p>
+          </li>
+          <li>
+            <h3>Bachelor's Degree in Economic 🏫 </h3>
+                <p>Celal Bayar University, Izmir, Turkey (2010 - 2016) </p>
+              </li>
+        <li>
+          <h3>Master's Degree in Computer Science and Statistic 🏫 </h3>
+          <p>9 Eylul University, Izmir, Turkey (Year - Year) </p>
         </li>
         <li>
-          <h3>Web Development Bootcamp 🏫 </h3>
-          <p>ABC Coding School, City, Country (Year)</p>
+          <h3>Web Development🏫 </h3>
+          <p>Tamwood Career College, BC , Canada (2023)</p>
         </li>
       </ul>
     </div>

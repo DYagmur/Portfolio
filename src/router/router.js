@@ -1,12 +1,12 @@
-import AboutPage from './../components/AboutMe.vue';
+import AboutMe from '../components/';
 import Contact from './../components/Contact.vue';
 import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
     {
         path: "/about",
-        name: "AboutPage",
-        component: AboutPage
+        name: "AboutMe",
+        component: AboutMe
     },
     {
         path: "/contact",

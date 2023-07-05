@@ -29,15 +29,15 @@
           },
           {
             id: 2,
-            title: 'Project 2',
-            description: 'Description of Project 2',
+            title: 'Portfolio',
+            description: ' This portfolio showcases my projects, skills, and experience in the field of web development.',
             image: 'project2.jpg',
             githubLink: 'https://github.com/your-username/project2',
-          },
-          {
+        },
+        {
             id: 3,
-            title: 'Project 3',
-            description: 'Description of Project 3',
+            title: 'Dish Dig',
+            description: 'Recipe Finder with Vue.js',
             image: 'project3.png',
             githubLink: 'https://github.com/your-username/project3',
           },
