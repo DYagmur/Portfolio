@@ -35,16 +35,17 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+* {
+  font-family: 'Rajdhani', sans-serif;
+}
 
 #app {
   text-align: center;
-  margin-top: 60px;
 }
 
 .container {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
@@ -56,5 +57,10 @@ export default {
 nav {
   position: relative; 
   z-index: 1; 
+}
+
+html {
+
+  scroll-behavior: smooth;
 }
 </style>

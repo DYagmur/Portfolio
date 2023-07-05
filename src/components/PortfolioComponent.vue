@@ -1,5 +1,5 @@
 <template>
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
       <h2>Portfolio</h2>
       <div class="project-list">
         <div class="project-card" v-for="project in projects" :key="project.id">
@@ -39,7 +39,7 @@
             title: 'Dish Dig',
             description: 'Recipe Finder with Vue.js',
             image: 'project3.png',
-            githubLink: 'https://github.com/your-username/project3',
+            githubLink:  'https://github.com/your-username/project3',
           },
         ],
       };
@@ -97,11 +97,22 @@
     .project-card {
       width: 100%;
     }
+    h2 {
+
+        padding-bottom: 30px;
+    }
   }
   
   @media (min-width: 769px) and (max-width: 1024px) {
     .project-card {
       width: calc(50% - 20px);
+      border: 1px solid red;
+      margin-left:220px;
+    }
+    
+    h2 {
+        
+        padding-bottom: 30px;
     }
   }
   

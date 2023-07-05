@@ -14,16 +14,18 @@
     
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a class="nav-link">Home</a>
+                   <!--  <router-link class="nav-link" to="/">Home</router-link> -->
+                    <a href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">About</a>
+                    <router-link class="nav-link" to="/">About</router-link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Portfolio</a>
+<!--                     <router-link class="nav-link" to="/">Portfolio</router-link>
+ -->                    <a href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">Contact</a>
+                    <router-link class="nav-link" to="/">Contact</router-link>
                 </li>
             </ul>
     
@@ -54,7 +56,7 @@ nav {
     padding: 0 15%;
     height: 75px;
     line-height: 75px;
-    background: #404040;
+    background: transparent;
 }
 
 nav .navbar-brand {
@@ -73,6 +75,7 @@ nav .nav-list .nav-item {
     height: 100%;
     padding: 0 30px;
     transition: .4s;
+    color:whitesmoke;
 }
 
 nav .nav-list .nav-item:hover {
@@ -85,6 +88,10 @@ nav .nav-list .nav-link {
     font-weight: 500;
 }
 
+nav .nav-list a {
+    color:whitesmoke;
+}
+
 @media (max-width: 935px) {
     
     nav {
@@ -94,7 +101,9 @@ nav .nav-list .nav-link {
     nav .nav-list .nav-item {
         padding: 0 20px;
     }
-    
+    nav .nav-list a {
+        color:whitesmoke;
+    }
 }
 
 @media (max-width: 675px) {
@@ -108,7 +117,7 @@ nav .nav-list .nav-link {
     nav .nav-list {
         display: grid;
         position: absolute;
-        background: #404040;
+        background: rgba(64, 64, 64, 0.8);
         width: 100%;
         top: 75px;
         left: 0;
@@ -123,6 +132,10 @@ nav .nav-list .nav-link {
     
     nav .navbar-toggler {
         display: grid !important;
+    }
+    
+    nav .nav-list a {
+        color:whitesmoke;
     }
     
 }
