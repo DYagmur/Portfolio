@@ -5,7 +5,9 @@
       <HomeComponent />
       <AboutMe />
       <PortfolioComponent />
+      <SkillComponent />
       <FooterComponent />
+
     </div>
   </div>
 </template>
@@ -17,6 +19,7 @@ import HomeComponent from './components/HomeComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import AboutMe from './components/AboutMe.vue';
 import PortfolioComponent from './components/PortfolioComponent.vue';
+import SkillComponent from './components/SkillComponent.vue';
 
 
 export default {
@@ -27,7 +30,8 @@ export default {
  /*    ContactComponent, */
     HomeComponent,
     AboutMe,
-    PortfolioComponent
+    PortfolioComponent,
+    SkillComponent
     /* HelloWorld */
 
   }

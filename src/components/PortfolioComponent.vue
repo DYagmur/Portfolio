@@ -7,8 +7,13 @@
           <div class="project-details">
             <h3>{{ project.title }}</h3>
             <p>{{ project.description }}</p>
-            <a :href="project.githubLink" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a :href="project.githubLink" target="_blank" rel="noopener noreferrer" class="fa-brands fa-github fa-beat fa-xl" style="color: #000000;"></a>
           </div>
+        </div>
+      </div>
+      <div class="skill-list" >
+        <div class="skill-card">
+
         </div>
       </div>
     </div>
@@ -61,7 +66,7 @@
   .project-card {
     width: 300px;
     margin-bottom: 20px;
-    background-color: #f5f5f5;
+    background-color: rgba(245, 245, 245, 0.);
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -78,12 +83,12 @@
   }
   
   .project-details h3 {
-    font-size: 18px;
+    font-size: 28px;
     margin-bottom: 5px;
   }
   
   .project-details p {
-    color: #888;
+    color: #3f3e3e;
   }
   
   .project-details a {

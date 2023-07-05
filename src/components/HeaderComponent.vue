@@ -60,7 +60,7 @@ nav {
 }
 
 nav .navbar-brand {
-    color: #ffffff;
+    color: #8f8585;
     font-size: 28px;
     font-weight: 500;
     letter-spacing: .5px;
@@ -75,7 +75,7 @@ nav .nav-list .nav-item {
     height: 100%;
     padding: 0 30px;
     transition: .4s;
-    color:whitesmoke;
+    color:rgb(49, 48, 48);
 }
 
 nav .nav-list .nav-item:hover {
@@ -83,7 +83,7 @@ nav .nav-list .nav-item:hover {
 }
 
 nav .nav-list .nav-link {
-    color: #f1f1f1;
+    color:#8f8585;
     font-size: 18px;
     font-weight: 500;
 }
