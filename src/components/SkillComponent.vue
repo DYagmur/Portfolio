@@ -33,12 +33,6 @@
             description: 'Styling language to make web pages visually appealing.',
             percentage: 85,
           },
-         /*  {
-            id: 3,
-            name: 'JavaScript',
-            description: 'Programming language for interactive web elements.',
-            percentage: 80,
-          }, */
           {
             id: 4,
             name: 'Vue.js',
@@ -61,8 +55,16 @@
   <style scoped>
   .skills {
     margin-top: 60px;
+    border: 1px solid #ccc;
+    padding: 40px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
   }
   
+  .skills h2 {
+    padding-bottom: 20px;
+    font-size: 40px;
+  }
   .skill-list {
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +74,7 @@
   .skill-card {
     width: 300px;
     margin-bottom: 20px;
-    background-color: rgba(245, 245, 245, 0.1);
+    background-color: #fff;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -85,6 +87,7 @@
   .skill-details h3 {
     font-size: 18px;
     margin-bottom: 5px;
+    color: #333;
   }
   
   .skill-progress {
@@ -95,7 +98,7 @@
   
   .progress-bar {
     height: 100%;
-    background-color: rgb(127, 133, 139);
+    background-color: #75777a;
     border-radius: 5px;
   }
   
@@ -112,12 +115,15 @@
   @media (min-width: 769px) and (max-width: 1024px) {
     .skill-card {
       width: calc(50% - 20px);
+      margin-left: 180px;
     }
   }
   
   @media (min-width: 1025px) {
     .skill-card {
       width: calc(33.33% - 20px);
+      margin-left:110px;
+      margin-right:90px;
     }
   }
   </style>

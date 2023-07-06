@@ -5,7 +5,7 @@
     <div class="home-page">
       <div class="content">
         <div class="text">
-          <h1>Welcome to My Portfolio WebSite 👩‍💻</h1>
+          <h1>Hello World!{I'm Duygu}</h1>
           <p>
             Welcome to my web developer portfolio! I am a skilled and passionate web developer with expertise in front-end and back-end development. This portfolio showcases my projects, skills, and experience in the field of web development.
           </p>
@@ -21,10 +21,31 @@
   </script>
   
   <style scoped>
+
+  .profile-picture {
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #eaeaea;
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+    
+
+  }
   .home-page {
     max-width: 800px;
     margin: 0 auto;
     padding: 40px;
+    border: 1px solid #eaeaea;
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+   
+    
   }
   
   .content {
@@ -41,7 +62,7 @@
   }
   
   h1 {
-    font-size: 28px;
+    font-size: 38px;
     margin-bottom:20px;
     
   }
@@ -49,7 +70,6 @@
   p {
     font-size: 16px;
     margin-bottom: 30px;
-    border:1px solid blue;
   }
   
   .profile-picture img {

@@ -11,11 +11,6 @@
           </div>
         </div>
       </div>
-      <div class="skill-list" >
-        <div class="skill-card">
-
-        </div>
-      </div>
     </div>
   </template>
   
@@ -35,16 +30,23 @@
           {
             id: 2,
             title: 'Portfolio',
-            description: ' This portfolio showcases my projects, skills, and experience in the field of web development.',
-            image: 'project2.jpg',
-            githubLink: 'https://github.com/your-username/project2',
-        },
-        {
+            description: 'This portfolio showcases my projects, skills, and experience in the field of web development.',
+            image: 'portfolio.jpeg',
+            githubLink: 'https://github.com/DYagmur/Portfolio',
+          },
+          {
             id: 3,
             title: 'Dish Dig',
             description: 'Recipe Finder with Vue.js',
+            image: 'dish.png',
+            githubLink: 'https://github.com/LeticiaMatosGuerra/FinalProject',
+          },
+          {
+            id: 4,
+            title: 'Front End Coding',
+            description: 'Front End Coding Materials',
             image: 'project3.png',
-            githubLink:  'https://github.com/your-username/project3',
+            githubLink: 'https://github.com/DYagmur/Frontend-Developer-Course',
           },
         ],
       };
@@ -56,7 +58,10 @@
   .portfolio {
     margin-top: 60px;
   }
-  
+  .portfolio h2 {
+    padding-bottom: 20px;
+    font-size: 40px;
+  }
   .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -66,14 +71,17 @@
   .project-card {
     width: 300px;
     margin-bottom: 20px;
-    background-color: rgba(245, 245, 245, 0.);
+    background-color: rgba(245, 245, 245, 0.9);
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left:110px;
+    margin-right:90px;
+    
   }
   
   .project-image {
-    width: 100%;
+    width: 40%;
     height: auto;
     border-radius: 4px;
   }
@@ -83,48 +91,48 @@
   }
   
   .project-details h3 {
-    font-size: 28px;
-    margin-bottom: 5px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
   }
   
   .project-details p {
-    color: #3f3e3e;
+    color: #555;
   }
   
   .project-details a {
     display: inline-block;
     margin-top: 10px;
-    color: #007bff;
+    color:#555;
     text-decoration: none;
   }
   
+
   @media (max-width: 768px) {
     .project-card {
       width: 100%;
     }
+  
     h2 {
-
-        padding-bottom: 30px;
+      padding-bottom: 30px;
     }
   }
   
   @media (min-width: 769px) and (max-width: 1024px) {
     .project-card {
       width: calc(50% - 20px);
-      border: 1px solid red;
-      margin-left:220px;
+      margin-left: 220px;
+    }
+  
+      h2 {
+        padding-bottom: 30px;
+      }
     }
     
-    h2 {
-        
-        padding-bottom: 30px;
+    @media (min-width: 1025px) {
+      .project-card {
+        width: calc(33.33% - 20px);
+      }
     }
-  }
-  
-  @media (min-width: 1025px) {
-    .project-card {
-      width: calc(33.33% - 20px);
-    }
-  }
   </style>
   

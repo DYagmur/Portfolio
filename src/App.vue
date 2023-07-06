@@ -4,8 +4,9 @@
       <HeaderComponent />
       <HomeComponent />
       <AboutMe />
-      <PortfolioComponent />
       <SkillComponent />
+      <PortfolioComponent />
+      <ContactMe />
       <FooterComponent />
 
     </div>
@@ -20,6 +21,7 @@ import FooterComponent from './components/FooterComponent.vue';
 import AboutMe from './components/AboutMe.vue';
 import PortfolioComponent from './components/PortfolioComponent.vue';
 import SkillComponent from './components/SkillComponent.vue';
+import ContactMe from './components/ContactMe.vue';
 
 
 export default {
@@ -30,8 +32,9 @@ export default {
  /*    ContactComponent, */
     HomeComponent,
     AboutMe,
+    SkillComponent,
     PortfolioComponent,
-    SkillComponent
+    ContactMe
     /* HelloWorld */
 
   }
@@ -43,17 +46,19 @@ export default {
 
 * {
   font-family: 'Rajdhani', sans-serif;
+
 }
 
 #app {
   text-align: center;
+  border: 1px solid rgb(156, 190, 4);
 }
 
 .container {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  background-image: url(./assets/bg-image.jpg);
+  background-image: url();
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
