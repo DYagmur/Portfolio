@@ -51,14 +51,13 @@ export default {
 
 #app {
   text-align: center;
-  border: 1px solid rgb(156, 190, 4);
+  
 }
 
 .container {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  background-image: url();
   background-position: center;
   background-repeat: no-repeat;
   position: relative;

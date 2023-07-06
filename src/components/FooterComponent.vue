@@ -3,12 +3,12 @@
     <p>&copy; 2023 Duygu Yagmur EFE</p>
     <ul class="social-links">
       <li>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="social-link">
+        <a href="https://www.linkedin.com/in/duygu-yagmur-efe/" target="_blank" rel="noopener noreferrer" class="social-link">
           <i class="fab fa-linkedin"></i>
         </a>
       </li>
       <li>
-        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-link">
+        <a href="https://github.com/DYagmur" target="_blank" rel="noopener noreferrer" class="social-link">
           <i class="fab fa-github"></i>
         </a>
       </li>

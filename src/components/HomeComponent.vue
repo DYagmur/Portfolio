@@ -2,7 +2,7 @@
     <div class="profile-picture">
       <img src="../assets/profile-picture.jpg" alt="Profile Picture">
     </div>
-    <div class="home-page">
+    <div class="home-page" id="home">
       <div class="content">
         <div class="text">
           <h1>Hello World!{I'm Duygu}</h1>
