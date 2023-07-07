@@ -101,7 +101,7 @@
   }
   
   @media (max-width: 767px) {
-    /* Styles for mobile devices */
+   
     .contact-me {
       padding: 30px;
     }
@@ -124,7 +124,7 @@
   }
   
   @media (min-width: 768px) and (max-width: 1023px) {
-    /* Styles for tablets */
+    
     .contact-me {
       padding: 40px;
     }
@@ -135,7 +135,7 @@
   }
   
   @media (min-width: 1024px) {
-    /* Styles for desktops */
+   
     .contact-me {
       padding: 50px;
     }
